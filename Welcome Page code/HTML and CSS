@@ -1,0 +1,52 @@
+<div class="intro">
+  <div class="boxfather">
+    <div class="box">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <h1>WELCOME</h1>
+      <p>Welcome to the official Rutgers University forums! This
+      is a forum that is dedicated to everything related to Rutgers.
+      In here you will find all the answers to any questions you may have and you may also find a lot of information on here useful. There are dedicated sections to each aspect of Rutgers University such as transfer information, class information and help, textbooks, and even housing. The best part of this forum is that not only will you be able to find the information that you are looking for, but you will also become part of a unique online community full of many members. You will be able to create special bonds and interactions with members of this forum that will last throughout your time at Rutgers University. This forum will also have a section dedicated to general discussion that is  not related to Rutgers. Hope you have a great time being active within this community!</p>
+    </div>
+  </div>
+  
+</div>
+
+body
+    {
+    width: 100%;
+    height: 100%;
+    background-image:url(http://www.umhoops.com/wp-content/uploads/2016/01/Rutgers_University_New_Brunswick1.png);
+    background-size: auto;
+    background-attachment:fixed;
+    margin: 0;
+    background-repeat: no-repeat;
+    padding: 0;
+    }
+.box{
+  height: 500px;
+  width: 550px;
+  background: red;
+  position:relative;
+  top:50px;
+  left:600px;
+  right:0px;
+  margin:auto;
+  border-radius:20px;
+  border-style: outset;
+  border-width: 25px;
+  border-color: grey;
+}
+.box h1{
+  color: white;
+  font-size: 20pt;
+  text-align: center;
+  position: relative;
+  top:0px;
+  font-family: 'Montserrat', sans-serif;
+}
+.box p{
+  color:white;
+  line-height:200%;
+  text-indent:5%;
+  font-family:sans-serif;
+}
