@@ -1,0 +1,85 @@
+<div class="login">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <h2 class="login-header">Log in</h2>
+
+  <form class="login-box">
+    <p><input type="email" placeholder = "Email address"></p>
+    <p><input type="password" placeholder="Password"></p>
+    <p><input type="submit" value="Log in"></p>
+  </form>
+</div>
+
+
+body {
+  background: red;
+  font-family:  sans-serif;
+}
+
+.login {
+  width: 350px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.login-header {
+  background: white;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  border-style:outset;
+  border-width:10px;
+  border-color:grey;
+}
+
+.login-box {
+  background: black;
+  padding: 12px;
+}
+
+
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 10px;
+  border-style: outset;
+  padding: 16px;
+  outline: 0;
+  font-family: sans-serif;
+  font-size: 0.95em;
+  border-color:grey;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: red;
+  border-color: grey;
+  
+}
+
+
+.login input[type="submit"] {
+  background: white;
+  border-color: transparent;
+  color: red;
+  cursor: pointer;
+}
+
